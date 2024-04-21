@@ -1,22 +1,23 @@
-# next-template
+# Micro Saas for CRM and Project Management
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+under development ...
 
-## Usage
+## Roles and Permissions
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
-
-## Features
-
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+| Permission      | Admin | Manager | Employee | Client |
+| --------------- | ----- | ------- | -------- | ------ |
+| Create Project  | Yes   | Yes     | Yes      | No     |
+| Edit Project    | Yes   | Yes     | Yes      | No     |
+| Delete Project  | Yes   | Yes     | No       | No     |
+| Create Task     | Yes   | Yes     | Yes      | No     |
+| Edit Task       | Yes   | Yes     | Yes      | No     |
+| Delete Task     | Yes   | Yes     | No       | No     |
+| Create Invoice  | Yes   | Yes     | No       | No     |
+| Edit Invoice    | Yes   | Yes     | No       | No     |
+| Delete Invoice  | Yes   | Yes     | No       | No     |
+| Create Client   | Yes   | Yes     | No       | No     |
+| Edit Client     | Yes   | Yes     | No       | No     |
+| Delete Client   | Yes   | Yes     | No       | No     |
+| Create Employee | Yes   | No      | No       | No     |
+| Edit Employee   | Yes   | No      | No       | No     |
+| Delete Employee | Yes   | No      | No       | No     |
